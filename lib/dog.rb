@@ -9,7 +9,7 @@ class Dog
   end
 
   def self.all
-    @@all.each_char { |dog| puts "#{dog.name}"  }
+    @@all
   end
 
   def self.clear_all
