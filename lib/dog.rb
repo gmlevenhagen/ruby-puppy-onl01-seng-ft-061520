@@ -9,14 +9,11 @@ class Dog
   end
 
   def self.all
-    @@all
+    @@all.each_char { |dog| puts "#{dog.name}"  }
   end
 
   def self.clear_all
     @@all.clear
   end
 
-  def self.print_all
-    @@all
-    end
 end
